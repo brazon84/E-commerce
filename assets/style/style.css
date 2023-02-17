@@ -19,6 +19,7 @@ nav {
 }
 nav img {
     height: 55px;
+    z-index: 10 white;
 }
 nav button {
     width: 40px;
@@ -64,6 +65,9 @@ header img {
 }
 .car__toggle {
     display: block;
+}
+.fa-solid{
+    color: #333;
 }
 .nav__car__visible {
     left: 70%;
@@ -198,7 +202,7 @@ main h3 {
     background-color: #333;
     color: white;
   }
-  .dark-mode i, .car__toggle{
+  .dark-mode i, main h3{
     color: white ;
   }
 
